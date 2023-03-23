@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "eips",
+      "type": "com.vtw.deploy.script.config.eipsConfig",
+      "sourceType": "com.vtw.deploy.script.config.eipsConfig"
+    },
+    {
+      "name": "gmdadmin",
+      "type": "com.vtw.deploy.script.config.gmdadminConfig",
+      "sourceType": "com.vtw.deploy.script.config.gmdadminConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "eips.host",
+      "type": "java.lang.String",
+      "sourceType": "com.vtw.deploy.script.config.eipsConfig"
+    },
+    {
+      "name": "eips.password",
+      "type": "java.lang.String",
+      "sourceType": "com.vtw.deploy.script.config.eipsConfig"
+    },
+    {
+      "name": "eips.username",
+      "type": "java.lang.String",
+      "sourceType": "com.vtw.deploy.script.config.eipsConfig"
+    },
+    {
+      "name": "gmdadmin.deployed-sources",
+      "type": "java.lang.String",
+      "sourceType": "com.vtw.deploy.script.config.gmdadminConfig"
+    },
+    {
+      "name": "gmdadmin.key-path",
+      "type": "java.lang.String",
+      "sourceType": "com.vtw.deploy.script.config.gmdadminConfig"
+    },
+    {
+      "name": "gmdadmin.tbwapp-war-path",
+      "type": "java.lang.String",
+      "sourceType": "com.vtw.deploy.script.config.gmdadminConfig"
+    }
+  ],
+  "hints": []
+}
